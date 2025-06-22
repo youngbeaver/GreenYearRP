@@ -1,0 +1,6 @@
+<meta>
+	<info name="ServerSideGreenYear" type="script"/>
+	<script src="Debug/net8.0/ServerSide.dll"/>
+
+	<export class="Customization" function="ApplyCharacter" />
+</meta>

@@ -1,0 +1,595 @@
+
+==================[21.06.2025 18:51:50]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 18:51:51]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 18:51:52]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. Не удается найти указанный файл.
+File name: 'System.Diagnostics.PerformanceCounter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 222
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+=========================================================
+
+==================[21.06.2025 18:51:52]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Diagnostics.PerformanceCounter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'. Не удается найти указанный файл.
+File name: 'System.Diagnostics.PerformanceCounter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51'
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 222
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+=========================================================
+
+==================[21.06.2025 18:51:52]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or asse
+==================[21.06.2025 18:53:19]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 18:53:19]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 18:53:20]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+=========================================================
+
+==================[21.06.2025 18:53:20]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+=========================================================
+
+==================[21.06.2025 18:53:20]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 24
+   --- End of inner exception stack trace ---
+   at static Microsoft.Data.SqlClient.SqlConnection() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionHelper.cs:line 20
+=========================================================
+
+==================[21.06.2025 18:53:20]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnection' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s
+==================[21.06.2025 18:54:15]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 18:54:16]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 18:54:16]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+=========================================================
+
+==================[21.06.2025 18:54:16]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+=========================================================
+
+==================[21.06.2025 18:54:16]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 24
+   --- End of inner exception stack trace ---
+   at static Microsoft.Data.SqlClient.SqlConnection() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionHelper.cs:line 20
+=========================================================
+
+==================[21.06.2025 18:54:16]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnection' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s
+==================[21.06.2025 19:02:31]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:02:31]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:02:32]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+=========================================================
+
+==================[21.06.2025 19:02:32]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:02:32]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 24
+   --- End of inner exception stack trace ---
+   at static Microsoft.Data.SqlClient.SqlConnection() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionHelper.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:02:32]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnection' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.Common.ADP' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: 'System.Data.SqlClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at static Microsoft.Data.Common.ADP() in C:/__w/1/s/src/Microsoft.Data.SqlClient/src/Microsoft/Data/Common/AdapterUtil.cs:line 1437
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 187
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s
+==================[21.06.2025 19:03:00]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:03:00]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:03:01]==================
+System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+=========================================================
+
+==================[21.06.2025 19:03:01]==================
+System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+=========================================================
+
+==================[21.06.2025 19:03:01]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:03:01]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 24
+   --- End of inner exception stack trace ---
+   at static Microsoft.Data.SqlClient.SqlConnection() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionHelper.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:03:01]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnection' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlCli
+==================[21.06.2025 19:08:50]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:08:50]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:08:51]==================
+System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+=========================================================
+
+==================[21.06.2025 19:08:51]==================
+System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+=========================================================
+
+==================[21.06.2025 19:08:51]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:08:51]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 24
+   --- End of inner exception stack trace ---
+   at static Microsoft.Data.SqlClient.SqlConnection() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionHelper.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:08:51]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnection' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlCli
+==================[21.06.2025 19:14:23]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:14:24]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:14:24]==================
+System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+=========================================================
+
+==================[21.06.2025 19:14:24]==================
+System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+=========================================================
+
+==================[21.06.2025 19:14:24]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:14:24]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 24
+   --- End of inner exception stack trace ---
+   at static Microsoft.Data.SqlClient.SqlConnection() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionHelper.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:14:24]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnection' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlCli
+==================[21.06.2025 19:15:20]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:15:20]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:15:24]==================
+System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+=========================================================
+
+==================[21.06.2025 19:15:24]==================
+System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+=========================================================
+
+==================[21.06.2025 19:15:24]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:15:24]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 20
+   at static Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 24
+   --- End of inner exception stack trace ---
+   at static Microsoft.Data.SqlClient.SqlConnection() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionHelper.cs:line 20
+=========================================================
+
+==================[21.06.2025 19:15:24]==================
+System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnection' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlConnectionFactory' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'Microsoft.Data.SqlClient.SqlPerformanceCounters' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'CreationData' threw an exception.
+ ---> System.PlatformNotSupportedException: Performance Counters are not supported on this platform.
+   at new System.Diagnostics.CounterCreationData(string counterName, string counterHelp, PerformanceCounterType counterType)
+   at static Microsoft.Data.ProviderBase.DbConnectionPoolCounters+CreationData() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 21
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.ProviderBase.DbConnectionPoolCounters(string categoryName, string categoryHelp) in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/ProviderBase/DbConnectionPoolCounters.cs:line 195
+   at new Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 353
+   at static Microsoft.Data.SqlClient.SqlPerformanceCounters() in C:/__w/1/s/src/Microsoft.Data.SqlClient/netfx/src/Microsoft/Data/SqlClient/SqlConnectionFactory.cs:line 350
+   --- End of inner exception stack trace ---
+   at new Microsoft.Data.SqlClient.SqlConnectionFactory() in C:/__w/1/s/src/Microsoft.Data.SqlCli
+==================[21.06.2025 19:20:52]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:20:52]==================
+System.IO.FileNotFoundException: Could not load file or assembly 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'. Не удается найти указанный файл.
+File name: 'Bootstrapper.XmlSerializers, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=AMD64'
+   at RuntimeAssembly System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, ref StackCrawlMark stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, bool throwOnFileNotFound)
+=========================================================
+
+==================[21.06.2025 19:20:54]==================
+MySqlConnector.MySqlException (0x80004005): Unknown database 'greenyear'
+   at async ValueTask<PayloadData> MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+=========================================================
+
+==================[21.06.2025 19:20:54]==================
+MySqlConnector.MySqlException (0x80004005): Unknown database 'greenyear'
+   at async ValueTask<PayloadData> MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[21.06.2025 19:20:54]==================
+MySqlConnector.MySqlException (0x80004005): Unknown database 'greenyear'
+   at async ValueTask<PayloadData> MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[21.06.2025 19:20:54]==================
+MySqlConnector.MySqlException (0x80004005): Unknown database 'greenyear'
+   at async ValueTask<PayloadData> MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at void MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at async Task MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary<string, CachedProcedure> cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+=========================================================
+
+==================[21.06.2025 19:20:54]==================
+MySqlConnector.MySqlException (0x80004005): Unknown database 'greenyear'
+   at async ValueTask<PayloadData> MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at void MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at async Task MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary<string, CachedProcedure> cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[21.06.2025 19:20:54]==================
+MySqlConnector.MySqlException (0x80004005): Unknown database 'greenyear'
+   at async ValueTask<PayloadData> MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at void MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at async Task MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary<string, CachedProcedure> cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at async ValueTask<MySqlDataReader> MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[21.06.2025 19:20:54]==================
+MySqlConnector.MySqlException (0x80004005): Unknown database 'greenyear'
+   at async ValueTask<PayloadData> MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>+ConfiguredValueTaskAwaiter.GetResult()
+   at async Task MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at void MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at async Task MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary<string, CachedProcedure> cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancella

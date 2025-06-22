@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Debug": {
+      "commandName": "Executable",
+      "executablePath": "./ragemp-server.exe",
+      "workingDirectory": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear"
+    }
+  }
+}

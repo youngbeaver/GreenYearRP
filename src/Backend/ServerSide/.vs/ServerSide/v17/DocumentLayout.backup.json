@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A74CF8D-3930-9DF7-7494-6659E4DC8A30}|..\\Client\\ClientSide\\ClientSide.esproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\client\\clientside\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A74CF8D-3930-9DF7-7494-6659E4DC8A30}|..\\Client\\ClientSide\\ClientSide.esproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\client\\clientside\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A74CF8D-3930-9DF7-7494-6659E4DC8A30}|..\\Client\\ClientSide\\ClientSide.esproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\client\\clientside\\clientside.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\serverside\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A74CF8D-3930-9DF7-7494-6659E4DC8A30}|..\\Client\\ClientSide\\ClientSide.esproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\client\\clientside\\index.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\serverside\\database\\entitycore\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|solutionrelative:database\\entitycore\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\serverside\\serverside.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|solutionrelative:serverside.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\serverside\\database\\databaseengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|solutionrelative:database\\databaseengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\serverside\\serverside.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|solutionrelative:serverside.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|d:\\myworkspace\\sharp\\ragemp\\greenyear\\src\\backend\\serverside\\database\\entitycore\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BDE7F6-CA26-44FE-AA5C-DA8477D8A734}|ServerSide.csproj|solutionrelative:database\\entitycore\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\Client\\ClientSide\\package.json",
+              "RelativeDocumentMoniker": "..\\Client\\ClientSide\\package.json",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\Client\\ClientSide\\package.json",
+              "RelativeToolTip": "..\\Client\\ClientSide\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-21T22:00:17.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\Client\\ClientSide\\tsconfig.json",
+              "RelativeDocumentMoniker": "..\\Client\\ClientSide\\tsconfig.json",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\Client\\ClientSide\\tsconfig.json",
+              "RelativeToolTip": "..\\Client\\ClientSide\\tsconfig.json",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAADUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-21T21:59:51.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientSide",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\Client\\ClientSide\\ClientSide.esproj",
+              "RelativeDocumentMoniker": "..\\Client\\ClientSide\\ClientSide.esproj",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\Client\\ClientSide\\ClientSide.esproj",
+              "RelativeToolTip": "..\\Client\\ClientSide\\ClientSide.esproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-21T21:59:46.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.ts",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\Client\\ClientSide\\index.ts",
+              "RelativeDocumentMoniker": "..\\Client\\ClientSide\\index.ts",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\Client\\ClientSide\\index.ts",
+              "RelativeToolTip": "..\\Client\\ClientSide\\index.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-21T16:25:20.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServerSide.csproj",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\ServerSide.csproj",
+              "RelativeDocumentMoniker": "ServerSide.csproj",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\ServerSide.csproj",
+              "RelativeToolTip": "ServerSide.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-21T15:39:58.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\Database\\EntityCore\\Models\\Accounts.cs",
+              "RelativeDocumentMoniker": "Database\\EntityCore\\Models\\Accounts.cs",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\Database\\EntityCore\\Models\\Accounts.cs",
+              "RelativeToolTip": "Database\\EntityCore\\Models\\Accounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:08:56.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\Database\\EntityCore\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Database\\EntityCore\\ApplicationContext.cs",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\Database\\EntityCore\\ApplicationContext.cs",
+              "RelativeToolTip": "Database\\EntityCore\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:04:58.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseEngine.cs",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\Database\\DatabaseEngine.cs",
+              "RelativeDocumentMoniker": "Database\\DatabaseEngine.cs",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\Database\\DatabaseEngine.cs",
+              "RelativeToolTip": "Database\\DatabaseEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:03:55.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServerSide",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\ServerSide.csproj",
+              "RelativeDocumentMoniker": "ServerSide.csproj",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\ServerSide.csproj",
+              "RelativeToolTip": "ServerSide.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-21T13:45:41.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "D:\\MyWorkSpace\\Sharp\\RAGEMP\\GreenYear\\src\\Backend\\ServerSide\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:34:33.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

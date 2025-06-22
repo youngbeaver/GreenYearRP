@@ -1,0 +1,6 @@
+<meta>
+	<info name="ServerSideGreenYear" type="script"/>
+	<script src="1"/>
+
+	<export class="Customization" function="ApplyCharacter" />
+</meta>
