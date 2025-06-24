@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <Platforms>AnyCPU;x64</Platforms>
     <NuGetAuditMode>all</NuGetAuditMode>
-    <BaseOutputPath>D:\MyWorkSpace\Sharp\RAGEMP\GreenYear\dotnet\resources</BaseOutputPath>
+    <BaseOutputPath>D:\MyWorkSpace\Sharp\RAGEMP\GreenYearRP\dotnet\resources</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,15 +16,27 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Accounts\" />
+	 <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.5.0" />
+	 <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="8.0.1" />
+	<PackageReference Include="System.Security.Permissions" Version="8.0.0" />
+	  <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.5.0" />
+	  <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.5.0" />
+	  <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-	 <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.14" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
-    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="8.0.1" />
-    <PackageReference Include="System.Security.Permissions" Version="9.0.6" />
+    <ProjectReference Include="..\SDK\SDK.csproj" />
   </ItemGroup>
 
 </Project>

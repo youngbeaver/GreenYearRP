@@ -1,15 +1,17 @@
-﻿using GTANetworkAPI;
+﻿using System.Security.Cryptography;
+using System.Text;
+using GTANetworkAPI;
+using SDK.CustomEntities;
 using ServerSide.Database.EntityCore;
-using ServerSide.Database.EntityCore.Models;
-
 namespace ServerSide
 {
     public class Main : Script
     {
         [ServerEvent(Event.ResourceStart)]
-        public static void OnResourceStart()
+        public void OnResourceStart()
         {
-            Console.WriteLine("prot");
+            RAGE.Entities.Players.CreateEntity = (NetHandle handle) => new CustomPlayer(handle);
+            RAGE.Entities.Vehicles.CreateEntity = (NetHandle handle) => new CustomVehicle(handle);
         }
     }
 }

@@ -1,18 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
   <PropertyGroup>
+    <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
     <PackageJsonName Condition="$(PackageJsonName) == ''">clientside</PackageJsonName>
     <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
     <PackageJsonDescription Condition="$(PackageJsonDescription) == ''"></PackageJsonDescription>
-    <PackageJsonMain Condition="$(PackageJsonMain) == ''">app.js</PackageJsonMain>
+    <PackageJsonMain Condition="$(PackageJsonMain) == ''">src/index.js</PackageJsonMain>
     <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">echo "Error: no test specified" &amp;&amp; exit 1</PackageJsonScriptsTest>
-    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">tsc --build</PackageJsonScriptsBuild>
-    <PackageJsonScriptsClean Condition="$(PackageJsonScriptsClean) == ''">tsc --build --clean</PackageJsonScriptsClean>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">esbuild src/index.ts --bundle --platform=node --outfile=../../../../client_packages/index.js --format=esm</PackageJsonScriptsBuild>
     <PackageJsonKeywords Condition="$(PackageJsonKeywords) == ''">[]</PackageJsonKeywords>
     <PackageJsonAuthor Condition="$(PackageJsonAuthor) == ''"></PackageJsonAuthor>
     <PackageJsonLicense Condition="$(PackageJsonLicense) == ''">ISC</PackageJsonLicense>
     <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">^24.0.3</PackageJsonDevdependenciesTypesNode>
     <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^9.29.0</PackageJsonDevdependenciesEslint>
     <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">^5.8.3</PackageJsonDevdependenciesTypescript>
+    <PackageJsonDependenciesRagempcommunityTypesClient Condition="$(PackageJsonDependenciesRagempcommunityTypesClient) == ''">^2.1.9</PackageJsonDependenciesRagempcommunityTypesClient>
+    <PackageJsonDependenciesEsbuild Condition="$(PackageJsonDependenciesEsbuild) == ''">^0.25.5</PackageJsonDependenciesEsbuild>
   </PropertyGroup>
 </Project>

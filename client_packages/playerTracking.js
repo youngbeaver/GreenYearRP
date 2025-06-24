@@ -1,7 +1,0 @@
-class playerTracking {
-    constructor() {}
-
-    /*
-    methods
-    */
-}
